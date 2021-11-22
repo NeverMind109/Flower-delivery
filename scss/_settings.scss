@@ -1,22 +1,5 @@
-@font-face {
-    font-family: 'Gotham Pro Light';
-    src: url('../fonts/GothamPro-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Gotham Pro Medium ';
-    src: url('../fonts/GothamPro-Medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Gotham Pro';
-    src: url('../fonts/GothamPro.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     font-family: 'Gotham Pro', sans-serif;
+    background-color: #292929;
+    color: #fff;
 }
