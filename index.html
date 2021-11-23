@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowers - Интернет-магазин цветов</title>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/> <!--Подключаем стили для swiper.js-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -30,5 +31,30 @@
             </div>
         </div>
     </header>
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title hero__title--margin">Эксклюзивные цветы и букеты<br> flowers Shop</h1>
+            <p class="hero__description">первая в россии эксклюзивная доставка цветов<br> для людей, которые ценят <b>уникальность</b></p>
+            <div class="swiper flowers-slider flowers-slider--margin">
+                <div class="swiper-wrapper">
+                <!-- Слайды с цветами -->
+                    <div class="swiper-slide"><img src="img/flowers/flower-1.png" alt="Image: Flower" class="flowers-slider__image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower-2.png" alt="Image: Flower" class="flowers-slider__image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower-3.png" alt="Image: Flower" class="flowers-slider__image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower-4.png" alt="Image: Flower" class="flowers-slider__image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower-5.png" alt="Image: Flower" class="flowers-slider__image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower-6.png" alt="Image: Flower" class="flowers-slider__image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower-4.png" alt="Image: Flower" class="flowers-slider__image"></div>
+                </div>            
+                <!-- Стрелки слайдера -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <span class="hero__call-to-action hero__call-to-action--margin">Закажите эксклюзивный букет со <b>скидкой 10%</b></span>
+            <a href="#" class="button hero__order-button">заказать букет</a>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <!--Подключаем swiper.js-->
+    <script src="js/main.js"></script>
 </body>
 </html>

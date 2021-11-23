@@ -1,0 +1,59 @@
+.hero {
+    padding: 100px 0 77px;
+    border-bottom: 1px solid #4c4c4c;
+    text-align: center;
+    &__title {
+        font-family: 'Gotham Pro Medium';
+        font-size: 34px;
+        line-height: normal;
+        font-weight: 500;
+        letter-spacing: 0.34px;
+        text-transform: uppercase;
+        color: $primary-white-color;
+        margin: 0;
+        &--margin {
+            margin-bottom: 34px;
+        }
+    }
+    &__description {
+        font-family: 'Gotham Pro Light';
+        font-size: 18px;
+        letter-spacing: 0.18px;
+        line-height: 1.4;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    &__call-to-action {
+        font-family: 'Gotham Pro Light';
+        display: block;
+        font-size: 19px;
+        letter-spacing: 0.18px;
+        text-transform: uppercase;
+        &--margin {
+            margin-bottom: 36px;
+        }
+    }
+    &__order-button {
+        display: inline-block;
+        font-size: 19px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $primary-white-color;
+        background-color: #ff2e55;
+        padding: 30px 65px;
+    }
+}
+.flowers {
+    &-slider {
+        width: 100%;
+        &--margin {
+            margin: 87px 0 83px;
+        }
+    }
+}
+:root {
+    --swiper-navigation-size: 18px;
+}
+:root {
+    --swiper-theme-color: #fff;
+}
