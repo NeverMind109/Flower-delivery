@@ -9,9 +9,11 @@
             color: $secondary-red-color;
         }
     }
+    &__contacts {
+        text-align: right;
+    }
     &__phone {
         display: block;
-        text-align: right;
         color: $primary-white-color;
         text-decoration: none;
         font-size: 20px;
@@ -19,7 +21,6 @@
     }
     &__info {
         display: block;
-        text-align: right;
         font-weight: 400;
         &--margin {
             margin: 7px 0 16px;
@@ -27,7 +28,6 @@
     }
     &__callback {
         display: block;
-        text-align: right;
         color: $secondary-red-color;
         font-size: 16px;
     }

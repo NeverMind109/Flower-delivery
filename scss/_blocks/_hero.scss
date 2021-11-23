@@ -3,6 +3,7 @@
     border-bottom: 1px solid #4c4c4c;
     text-align: center;
     &__title {
+        max-width: 660px;
         font-family: 'Gotham Pro Medium';
         font-size: 34px;
         line-height: normal;
@@ -10,18 +11,19 @@
         letter-spacing: 0.34px;
         text-transform: uppercase;
         color: $primary-white-color;
-        margin: 0;
+        margin: 0 auto;
         &--margin {
             margin-bottom: 34px;
         }
     }
     &__description {
+        max-width: 560px;
         font-family: 'Gotham Pro Light';
         font-size: 18px;
         letter-spacing: 0.18px;
         line-height: 1.4;
         text-transform: uppercase;
-        margin: 0;
+        margin: 0 auto;
     }
     &__call-to-action {
         font-family: 'Gotham Pro Light';
