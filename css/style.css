@@ -713,4 +713,33 @@ body {
       margin-left: 14px;
       vertical-align: middle; }
 
+/* line 1, ../scss/_blocks/_offer.scss */
+.offer {
+  padding: 100px 0;
+  background: #1a1a1a;
+  text-align: center; }
+  /* line 5, ../scss/_blocks/_offer.scss */
+  .offer__link {
+    display: block;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff; }
+    /* line 10, ../scss/_blocks/_offer.scss */
+    .offer__link--margin {
+      margin-bottom: 65px; }
+  /* line 14, ../scss/_blocks/_offer.scss */
+  .offer__label {
+    display: block;
+    font-size: 14px;
+    color: #fff; }
+    /* line 18, ../scss/_blocks/_offer.scss */
+    .offer__label--margin {
+      margin-bottom: 65px; }
+  /* line 22, ../scss/_blocks/_offer.scss */
+  .offer__phone {
+    font-size: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
