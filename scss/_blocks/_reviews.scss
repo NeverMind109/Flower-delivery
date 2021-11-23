@@ -1,5 +1,5 @@
 .reviews {
-    padding: 100px 0;
+    padding: 100px 0 50px;
     &__title{
         margin: 0;
         font-size: 30px;
@@ -12,12 +12,35 @@
             margin: 98px 0 0;
         }
     }
-    &-slide {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
 }
 .review {
+    padding-left: 100px;
+    padding-right: 70px;
+    &-slider {
+        &__button {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            z-index: 20;
+            top: 50%;
+            transform: translateY(-50%);
+            border: none;
+            background-color: transparent;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 36px;
+            cursor: pointer;
+            &--prev {
+                background-image: url("../img/prev-arrow.svg");
+                left: 18px;
+            }
+            &--next {
+                background-image: url("../img/prev-arrow.svg");
+                right: 18px;
+                transform: rotateY(180deg) translateY(-50%);
+            }
+        }
+    }
     &__image {
         position: relative;
         width: 220px;
@@ -54,8 +77,6 @@
         &--margin {
             margin-bottom: 7px;
         }
-    }
-    &__description {
     }
     &__text {
         width: 90%;

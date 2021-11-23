@@ -377,7 +377,7 @@ template {
     letter-spacing: 0.12px;
     font-size: 12px; }
     /* line 7, ../scss/_blocks/_header.scss */
-    .header__description--red {
+    .header__description-red {
       font-family: 'Gotham Pro Medium';
       color: #ff3469; }
   /* line 12, ../scss/_blocks/_header.scss */
@@ -455,18 +455,43 @@ template {
   /* line 49, ../scss/_blocks/_hero.scss */
   .flowers-slider--margin {
     margin: 87px 0 83px; }
+  /* line 52, ../scss/_blocks/_hero.scss */
+  .flowers-slider__button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 20;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    cursor: pointer; }
+    /* line 65, ../scss/_blocks/_hero.scss */
+    .flowers-slider__button--next {
+      background-image: url("../img/prev-arrow.svg");
+      right: 18px;
+      -webkit-transform: rotateY(180deg) translateY(-50%);
+              transform: rotateY(180deg) translateY(-50%); }
+    /* line 70, ../scss/_blocks/_hero.scss */
+    .flowers-slider__button--prev {
+      background-image: url("../img/prev-arrow.svg");
+      left: 18px; }
 
-/* line 54, ../scss/_blocks/_hero.scss */
-:root {
-  --swiper-navigation-size: 18px; }
+/* line 77, ../scss/_blocks/_hero.scss */
+.swiper-button-next {
+  display: none; }
 
-/* line 57, ../scss/_blocks/_hero.scss */
-:root {
-  --swiper-theme-color: #fff; }
+/* line 80, ../scss/_blocks/_hero.scss */
+.swiper-button-prev {
+  display: none; }
 
 /* line 1, ../scss/_blocks/_reviews.scss */
 .reviews {
-  padding: 100px 0; }
+  padding: 100px 0 50px; }
   /* line 3, ../scss/_blocks/_reviews.scss */
   .reviews__title {
     margin: 0;
@@ -477,59 +502,104 @@ template {
   /* line 11, ../scss/_blocks/_reviews.scss */
   .reviews-slider--margin {
     margin: 98px 0 0; }
-  /* line 15, ../scss/_blocks/_reviews.scss */
-  .reviews-slide {
-    padding-left: 60px;
-    padding-right: 60px; }
 
-/* line 21, ../scss/_blocks/_reviews.scss */
-.review__image {
-  position: relative;
-  width: 220px;
-  height: 220px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  border-radius: 50%;
-  overflow: hidden;
-  font-family: 'Gotham Pro Light';
-  font-size: 20px; }
-  /* line 30, ../scss/_blocks/_reviews.scss */
-  .review__image > * {
-    position: relative; }
-  /* line 33, ../scss/_blocks/_reviews.scss */
-  .review__image--1 {
-    background: center/cover no-repeat #000 url("../img/reviews/bouquet-1.jpg"); }
-  /* line 36, ../scss/_blocks/_reviews.scss */
-  .review__image--2 {
-    background: center/cover no-repeat #000 url("../img/reviews/bouquet-2.jpg"); }
-  /* line 39, ../scss/_blocks/_reviews.scss */
-  .review__image--3 {
-    background: center/cover no-repeat #000 url("../img/reviews/bouquet-3.jpg"); }
-  /* line 42, ../scss/_blocks/_reviews.scss */
-  .review__image::before {
+/* line 16, ../scss/_blocks/_reviews.scss */
+.review {
+  padding-left: 100px;
+  padding-right: 70px; }
+  /* line 20, ../scss/_blocks/_reviews.scss */
+  .review-slider__button {
     position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); }
-  /* line 49, ../scss/_blocks/_reviews.scss */
-  .review__image--margin {
-    margin-right: 50px; }
-/* line 54, ../scss/_blocks/_reviews.scss */
-.review__name--margin {
-  margin-bottom: 7px; }
-/* line 60, ../scss/_blocks/_reviews.scss */
-.review__text {
-  width: 90%;
-  margin: 0;
-  font-size: 18px;
-  letter-spacing: 0.18;
-  line-height: 1.4; }
-  /* line 66, ../scss/_blocks/_reviews.scss */
-  .review__text--margin {
-    margin-bottom: 42px; }
-/* line 70, ../scss/_blocks/_reviews.scss */
-.review__link {
-  color: #f24841; }
+    width: 60px;
+    height: 60px;
+    z-index: 20;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 36px;
+    cursor: pointer; }
+    /* line 33, ../scss/_blocks/_reviews.scss */
+    .review-slider__button--prev {
+      background-image: url("../img/prev-arrow.svg");
+      left: 18px; }
+    /* line 37, ../scss/_blocks/_reviews.scss */
+    .review-slider__button--next {
+      background-image: url("../img/prev-arrow.svg");
+      right: 18px;
+      -webkit-transform: rotateY(180deg) translateY(-50%);
+              transform: rotateY(180deg) translateY(-50%); }
+  /* line 44, ../scss/_blocks/_reviews.scss */
+  .review__image {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    font-family: 'Gotham Pro Light';
+    font-size: 20px; }
+    /* line 53, ../scss/_blocks/_reviews.scss */
+    .review__image > * {
+      position: relative; }
+    /* line 56, ../scss/_blocks/_reviews.scss */
+    .review__image--1 {
+      background: center/cover no-repeat #000 url("../img/reviews/bouquet-1.jpg"); }
+    /* line 59, ../scss/_blocks/_reviews.scss */
+    .review__image--2 {
+      background: center/cover no-repeat #000 url("../img/reviews/bouquet-2.jpg"); }
+    /* line 62, ../scss/_blocks/_reviews.scss */
+    .review__image--3 {
+      background: center/cover no-repeat #000 url("../img/reviews/bouquet-3.jpg"); }
+    /* line 65, ../scss/_blocks/_reviews.scss */
+    .review__image::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4); }
+    /* line 72, ../scss/_blocks/_reviews.scss */
+    .review__image--margin {
+      margin-right: 50px; }
+  /* line 77, ../scss/_blocks/_reviews.scss */
+  .review__name--margin {
+    margin-bottom: 7px; }
+  /* line 81, ../scss/_blocks/_reviews.scss */
+  .review__text {
+    width: 90%;
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 0.18;
+    line-height: 1.4; }
+    /* line 87, ../scss/_blocks/_reviews.scss */
+    .review__text--margin {
+      margin-bottom: 42px; }
+  /* line 91, ../scss/_blocks/_reviews.scss */
+  .review__link {
+    color: #f24841; }
+
+/* line 1, ../scss/_blocks/_advantages.scss */
+.advantages {
+  text-align: center;
+  padding: 50px 0 100px;
+  border-bottom: 1px solid #4c4c4c; }
+  /* line 5, ../scss/_blocks/_advantages.scss */
+  .advantages__wrapper {
+    min-height: 85px; }
+    /* line 7, ../scss/_blocks/_advantages.scss */
+    .advantages__wrapper--margin {
+      margin-bottom: 30px; }
+  /* line 11, ../scss/_blocks/_advantages.scss */
+  .advantages__title {
+    max-width: 270px;
+    margin: auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.4; }
 
 /*# sourceMappingURL=style.css.map */

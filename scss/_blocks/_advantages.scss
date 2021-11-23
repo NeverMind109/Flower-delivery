@@ -1,0 +1,19 @@
+.advantages {
+    text-align: center;
+    padding: 50px 0 100px;
+    border-bottom: 1px solid #4c4c4c;
+    &__wrapper {
+        min-height: 85px;
+        &--margin {
+            margin-bottom: 30px;
+        }
+    }
+    &__title {
+        max-width: 270px;
+        margin: auto;
+        text-transform: uppercase;
+        color: $primary-white-color;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+}

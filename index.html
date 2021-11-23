@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-md-6">
                     <span class="header__description">Интернет-магазин<br> цветов с доставкой<br> по всей 
-                        <span class="header__description--red">России</span>
+                        <span class="header__description-red">России</span>
                     </span>
                 </div>
                 <div class="col-md-3">
@@ -36,6 +36,9 @@
             <h1 class="hero__title hero__title--margin">Эксклюзивные цветы и букеты<br> flowers Shop</h1>
             <p class="hero__description">первая в россии эксклюзивная доставка цветов<br> для людей, которые ценят <b>уникальность</b></p>
             <div class="swiper flowers-slider flowers-slider--margin">
+                <!-- Кнопки навигации -->
+                <button class="flowers-slider__button flowers-slider__button--next"></button>
+                <button class="flowers-slider__button flowers-slider__button--prev"></button>
                 <div class="swiper-wrapper">
                 <!-- Слайды с цветами -->
                     <div class="swiper-slide"><img src="img/flowers/flower-1.png" alt="Image: Flower" class="flowers-slider__image"></div>
@@ -58,9 +61,12 @@
         <div class="container">
             <h2 class="reviews__title">Мы делаем лучшие букеты</h2>
             <div class="swiper reviews-slider reviews-slider--margin">
+                <!-- Кнопки навигации -->
+                <button class="review-slider__button review-slider__button--next"></button>
+                <button class="review-slider__button review-slider__button--prev"></button>
                 <div class="swiper-wrapper">
                 <!-- Слайды с отзывами -->
-                    <div class="swiper-slide reviews-slide d-flex align-items-center"> <!-- d-flex и AIC классы из bootstrap -->
+                    <div class="swiper-slide review d-flex align-items-center"> <!-- d-flex и AIC классы из bootstrap -->
                         <div class="review__image review__image--1 review__image--margin d-flex align-items-center justify-content-center flex-column">
                             <span class="review__name review__name--margin">Алиса Иванова</span>
                             <span class="review__city">г. Ноябрьск</span>
@@ -70,7 +76,7 @@
                             <a href="#" class="review__link">Посмотреть фотографии букета</a>
                         </div>
                     </div>
-                    <div class="swiper-slide reviews-slide d-flex align-items-center"> <!-- d-flex и AIC классы из bootstrap -->
+                    <div class="swiper-slide review d-flex align-items-center"> <!-- d-flex и AIC классы из bootstrap -->
                         <div class="review__image review__image--2 review__image--margin d-flex align-items-center justify-content-center flex-column">
                             <span class="review__name review__name--margin">Елена Ильина</span>
                             <span class="review__city">г. Москва</span>
@@ -80,7 +86,7 @@
                             <a href="#" class="review__link">Посмотреть фотографии букета</a>
                         </div>
                     </div>
-                    <div class="swiper-slide reviews-slide d-flex align-items-center"> <!-- d-flex и AIC классы из bootstrap -->
+                    <div class="swiper-slide review d-flex align-items-center"> <!-- d-flex и AIC классы из bootstrap -->
                         <div class="review__image review__image--3 review__image--margin d-flex align-items-center justify-content-center flex-column">
                             <span class="review__name review__name--margin">Мария Давыдова</span>
                             <span class="review__city">г. Москва</span>
@@ -97,6 +103,30 @@
             </div>
         </div>
     </section>
+    <div class="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="advantages__wrapper advantages__wrapper--margin">
+                        <img src="img/advantages/advantages-1.png" alt="Image: Advantage" class="advantages__image">
+                    </div>
+                    <h3 class="advantages__title">Только прямые  поставки цветов из&nbsp;Голландии</h3>
+                </div>
+                <div class="col">
+                    <div class="advantages__wrapper advantages__wrapper--margin">
+                        <img src="img/advantages/advantages-2.png" alt="Image: Advantage" class="advantages__image">
+                    </div>
+                    <h3 class="advantages__title">Наши флористы имеют 10 летний стаж работы</h3>
+                </div>
+                <div class="col">
+                    <div class="advantages__wrapper advantages__wrapper--margin">
+                        <img src="img/advantages/advantages-3.png" alt="Image: Advantage" class="advantages__image">
+                    </div>
+                    <h3 class="advantages__title">Все цветы вручную&nbsp;отбираются нашими&nbsp;флористами</h3>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <!--Подключаем swiper.js-->
     <script src="js/main.js"></script>
 </body>

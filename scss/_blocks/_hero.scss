@@ -49,11 +49,34 @@
         &--margin {
             margin: 87px 0 83px;
         }
+        &__button {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 20;
+            border: none;
+            background-color: transparent;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 18px;
+            cursor: pointer;
+            &--next {
+                background-image: url("../img/prev-arrow.svg");
+                right: 18px;
+                transform: rotateY(180deg) translateY(-50%);
+            }
+            &--prev {
+                background-image: url("../img/prev-arrow.svg");
+                left: 18px;
+            }
+        }
     }
 }
-:root {
-    --swiper-navigation-size: 18px;
+.swiper-button-next {
+    display: none;
 }
-:root {
-    --swiper-theme-color: #fff;
+.swiper-button-prev {
+    display: none;
 }
