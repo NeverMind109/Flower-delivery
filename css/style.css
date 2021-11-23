@@ -464,4 +464,72 @@ template {
 :root {
   --swiper-theme-color: #fff; }
 
+/* line 1, ../scss/_blocks/_reviews.scss */
+.reviews {
+  padding: 100px 0; }
+  /* line 3, ../scss/_blocks/_reviews.scss */
+  .reviews__title {
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3; }
+  /* line 11, ../scss/_blocks/_reviews.scss */
+  .reviews-slider--margin {
+    margin: 98px 0 0; }
+  /* line 15, ../scss/_blocks/_reviews.scss */
+  .reviews-slide {
+    padding-left: 60px;
+    padding-right: 60px; }
+
+/* line 21, ../scss/_blocks/_reviews.scss */
+.review__image {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-family: 'Gotham Pro Light';
+  font-size: 20px; }
+  /* line 30, ../scss/_blocks/_reviews.scss */
+  .review__image > * {
+    position: relative; }
+  /* line 33, ../scss/_blocks/_reviews.scss */
+  .review__image--1 {
+    background: center/cover no-repeat #000 url("../img/reviews/bouquet-1.jpg"); }
+  /* line 36, ../scss/_blocks/_reviews.scss */
+  .review__image--2 {
+    background: center/cover no-repeat #000 url("../img/reviews/bouquet-2.jpg"); }
+  /* line 39, ../scss/_blocks/_reviews.scss */
+  .review__image--3 {
+    background: center/cover no-repeat #000 url("../img/reviews/bouquet-3.jpg"); }
+  /* line 42, ../scss/_blocks/_reviews.scss */
+  .review__image::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); }
+  /* line 49, ../scss/_blocks/_reviews.scss */
+  .review__image--margin {
+    margin-right: 50px; }
+/* line 54, ../scss/_blocks/_reviews.scss */
+.review__name--margin {
+  margin-bottom: 7px; }
+/* line 60, ../scss/_blocks/_reviews.scss */
+.review__text {
+  width: 90%;
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.18;
+  line-height: 1.4; }
+  /* line 66, ../scss/_blocks/_reviews.scss */
+  .review__text--margin {
+    margin-bottom: 42px; }
+/* line 70, ../scss/_blocks/_reviews.scss */
+.review__link {
+  color: #f24841; }
+
 /*# sourceMappingURL=style.css.map */
