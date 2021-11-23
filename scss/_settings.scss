@@ -7,3 +7,17 @@ body {
     color: #fff;
     margin: 0;
 }
+.title {
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3px;
+}
+.button {
+    text-transform: uppercase;
+    color: $primary-white-color;
+    background-color: #ff2e55;
+    cursor: pointer;
+    border: none;
+}

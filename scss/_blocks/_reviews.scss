@@ -1,12 +1,5 @@
 .reviews {
     padding: 100px 0 50px;
-    &__title{
-        margin: 0;
-        font-size: 30px;
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 0.3;
-    }
     &-slider {
         &--margin {
             margin: 98px 0 0;
@@ -82,7 +75,7 @@
         width: 90%;
         margin: 0;
         font-size: 18px;
-        letter-spacing: 0.18;
+        letter-spacing: 0.18px;
         line-height: 1.4;
         &--margin {
             margin-bottom: 42px;

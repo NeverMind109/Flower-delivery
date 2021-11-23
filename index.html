@@ -14,13 +14,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <a href="/" class="header__homae-page">
+                    <a href="index.html" class="header__homae-page">
                         <img src="img/logo.png" alt="Image: Logo" class="header__logo">
                     </a>
                 </div>
                 <div class="col-md-6">
                     <span class="header__description">Интернет-магазин<br> цветов с доставкой<br> по всей 
-                        <span class="header__description-red">России</span>
+                        <span class="header__description header__description--red">России</span>
                     </span>
                 </div>
                 <div class="col-md-3">
@@ -59,7 +59,7 @@
     </section>
     <section class="reviews">
         <div class="container">
-            <h2 class="reviews__title">Мы делаем лучшие букеты</h2>
+            <h2 class="title reviews__title">Мы делаем лучшие букеты</h2>
             <div class="swiper reviews-slider reviews-slider--margin">
                 <!-- Кнопки навигации -->
                 <button class="review-slider__button review-slider__button--next"></button>
@@ -127,6 +127,223 @@
             </div>
         </div>
     </div>
+    <section class="goods">
+        <div class="container">
+            <h2 class="title goods__title">Собери свой букет <span class="title goods__title goods__title--red">прямо сейчас!</span></h2>
+            <p class="goods__description">Выберите желаемые цветы и наши флористы их оформят и доставят лично в руки!</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="goods-card goods-card--margin">
+                        <img src="img/flowers/flower-1.png" alt="Image: Flower" class="goods-card__image">
+                        <h3 class="goods-card__title goods-card__title--margin">Розы</h3>
+                        <span class="goods-card__choose goods-card__choose--margin">Выберите цвет:</span>
+                        <div class="goods-card__colors d-flex align-items-center justify-content-between">
+                            <label for="white" class="goods-card__label goods-card__label-white"></label>
+                            <input id="white" type="radio" name="color" value="white" class="goods-card__color-input">
+                            <label for="biege" class="goods-card__label goods-card__label-biege"></label>
+                            <input id="biege" type="radio" name="color" value="biege" class="goods-card__color-input">
+                            <label for="pink" class="goods-card__label goods-card__label-pink"></label>
+                            <input id="pink" type="radio" name="color" value="pink" class="goods-card__color-input">
+                            <label for="red" class="goods-card__label goods-card__label-red"></label>
+                            <input id="red" type="radio" name="color" value="red" class="goods-card__color-input">
+                            <label for="blue" class="goods-card__label goods-card__label-blue"></label>
+                            <input id="blue" type="radio" name="color" value="blue" class="goods-card__color-input">
+                        </div>
+                        <span class="goods-card__choose goods-card__choose--margin">Количество</span>
+                        <div class="goods-card__counter-group d-flex justify-content-center align-items-center">
+                            <button class="goods-card__counter-button">-</button>
+                            <input type="text" value="1" class="goods-card__counter-input goods-card__counter-input--margin">
+                            <button class="goods-card__counter-button">+</button>
+                        </div>
+                        <button class="button goods-card__button-buy goods-card__button-buy--margin">в корзину</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="goods-card goods-card--margin">
+                        <img src="img/flowers/flower-1.png" alt="Image: Flower" class="goods-card__image">
+                        <h3 class="goods-card__title goods-card__title--margin">Розы</h3>
+                        <span class="goods-card__choose goods-card__choose--margin">Выберите цвет:</span>
+                        <div class="goods-card__colors d-flex align-items-center justify-content-between">
+                            <label for="white" class="goods-card__label goods-card__label-white"></label>
+                            <input id="white" type="radio" name="color" value="white" class="goods-card__color-input">
+                            <label for="biege" class="goods-card__label goods-card__label-biege"></label>
+                            <input id="biege" type="radio" name="color" value="biege" class="goods-card__color-input">
+                            <label for="pink" class="goods-card__label goods-card__label-pink"></label>
+                            <input id="pink" type="radio" name="color" value="pink" class="goods-card__color-input">
+                            <label for="red" class="goods-card__label goods-card__label-red"></label>
+                            <input id="red" type="radio" name="color" value="red" class="goods-card__color-input">
+                            <label for="blue" class="goods-card__label goods-card__label-blue"></label>
+                            <input id="blue" type="radio" name="color" value="blue" class="goods-card__color-input">
+                        </div>
+                        <span class="goods-card__choose goods-card__choose--margin">Количество</span>
+                        <div class="goods-card__counter-group d-flex justify-content-center align-items-center">
+                            <button class="goods-card__counter-button">-</button>
+                            <input type="text" value="1" class="goods-card__counter-input goods-card__counter-input--margin">
+                            <button class="goods-card__counter-button">+</button>
+                        </div>
+                        <button class="button goods-card__button-buy goods-card__button-buy--margin">в корзину</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="goods-card goods-card--margin">
+                        <img src="img/flowers/flower-1.png" alt="Image: Flower" class="goods-card__image">
+                        <h3 class="goods-card__title goods-card__title--margin">Розы</h3>
+                        <span class="goods-card__choose goods-card__choose--margin">Выберите цвет:</span>
+                        <div class="goods-card__colors d-flex align-items-center justify-content-between">
+                            <label for="white" class="goods-card__label goods-card__label-white"></label>
+                            <input id="white" type="radio" name="color" value="white" class="goods-card__color-input">
+                            <label for="biege" class="goods-card__label goods-card__label-biege"></label>
+                            <input id="biege" type="radio" name="color" value="biege" class="goods-card__color-input">
+                            <label for="pink" class="goods-card__label goods-card__label-pink"></label>
+                            <input id="pink" type="radio" name="color" value="pink" class="goods-card__color-input">
+                            <label for="red" class="goods-card__label goods-card__label-red"></label>
+                            <input id="red" type="radio" name="color" value="red" class="goods-card__color-input">
+                            <label for="blue" class="goods-card__label goods-card__label-blue"></label>
+                            <input id="blue" type="radio" name="color" value="blue" class="goods-card__color-input">
+                        </div>
+                        <span class="goods-card__choose goods-card__choose--margin">Количество</span>
+                        <div class="goods-card__counter-group d-flex justify-content-center align-items-center">
+                            <button class="goods-card__counter-button">-</button>
+                            <input type="text" value="1" class="goods-card__counter-input goods-card__counter-input--margin">
+                            <button class="goods-card__counter-button">+</button>
+                        </div>
+                        <button class="button goods-card__button-buy goods-card__button-buy--margin">в корзину</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="goods-card goods-card--margin">
+                        <img src="img/flowers/flower-1.png" alt="Image: Flower" class="goods-card__image">
+                        <h3 class="goods-card__title goods-card__title--margin">Розы</h3>
+                        <span class="goods-card__choose goods-card__choose--margin">Выберите цвет:</span>
+                        <div class="goods-card__colors d-flex align-items-center justify-content-between">
+                            <label for="white" class="goods-card__label goods-card__label-white"></label>
+                            <input id="white" type="radio" name="color" value="white" class="goods-card__color-input">
+                            <label for="biege" class="goods-card__label goods-card__label-biege"></label>
+                            <input id="biege" type="radio" name="color" value="biege" class="goods-card__color-input">
+                            <label for="pink" class="goods-card__label goods-card__label-pink"></label>
+                            <input id="pink" type="radio" name="color" value="pink" class="goods-card__color-input">
+                            <label for="red" class="goods-card__label goods-card__label-red"></label>
+                            <input id="red" type="radio" name="color" value="red" class="goods-card__color-input">
+                            <label for="blue" class="goods-card__label goods-card__label-blue"></label>
+                            <input id="blue" type="radio" name="color" value="blue" class="goods-card__color-input">
+                        </div>
+                        <span class="goods-card__choose goods-card__choose--margin">Количество</span>
+                        <div class="goods-card__counter-group d-flex justify-content-center align-items-center">
+                            <button class="goods-card__counter-button">-</button>
+                            <input type="text" value="1" class="goods-card__counter-input goods-card__counter-input--margin">
+                            <button class="goods-card__counter-button">+</button>
+                        </div>
+                        <button class="button goods-card__button-buy goods-card__button-buy--margin">в корзину</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="goods-card goods-card--margin">
+                        <img src="img/flowers/flower-1.png" alt="Image: Flower" class="goods-card__image">
+                        <h3 class="goods-card__title goods-card__title--margin">Розы</h3>
+                        <span class="goods-card__choose goods-card__choose--margin">Выберите цвет:</span>
+                        <div class="goods-card__colors d-flex align-items-center justify-content-between">
+                            <label for="white" class="goods-card__label goods-card__label-white"></label>
+                            <input id="white" type="radio" name="color" value="white" class="goods-card__color-input">
+                            <label for="biege" class="goods-card__label goods-card__label-biege"></label>
+                            <input id="biege" type="radio" name="color" value="biege" class="goods-card__color-input">
+                            <label for="pink" class="goods-card__label goods-card__label-pink"></label>
+                            <input id="pink" type="radio" name="color" value="pink" class="goods-card__color-input">
+                            <label for="red" class="goods-card__label goods-card__label-red"></label>
+                            <input id="red" type="radio" name="color" value="red" class="goods-card__color-input">
+                            <label for="blue" class="goods-card__label goods-card__label-blue"></label>
+                            <input id="blue" type="radio" name="color" value="blue" class="goods-card__color-input">
+                        </div>
+                        <span class="goods-card__choose goods-card__choose--margin">Количество</span>
+                        <div class="goods-card__counter-group d-flex justify-content-center align-items-center">
+                            <button class="goods-card__counter-button">-</button>
+                            <input type="text" value="1" class="goods-card__counter-input goods-card__counter-input--margin">
+                            <button class="goods-card__counter-button">+</button>
+                        </div>
+                        <button class="button goods-card__button-buy goods-card__button-buy--margin">в корзину</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="goods-card goods-card--margin">
+                        <img src="img/flowers/flower-1.png" alt="Image: Flower" class="goods-card__image">
+                        <h3 class="goods-card__title goods-card__title--margin">Розы</h3>
+                        <span class="goods-card__choose goods-card__choose--margin">Выберите цвет:</span>
+                        <div class="goods-card__colors d-flex align-items-center justify-content-between">
+                            <label for="white" class="goods-card__label goods-card__label-white"></label>
+                            <input id="white" type="radio" name="color" value="white" class="goods-card__color-input">
+                            <label for="biege" class="goods-card__label goods-card__label-biege"></label>
+                            <input id="biege" type="radio" name="color" value="biege" class="goods-card__color-input">
+                            <label for="pink" class="goods-card__label goods-card__label-pink"></label>
+                            <input id="pink" type="radio" name="color" value="pink" class="goods-card__color-input">
+                            <label for="red" class="goods-card__label goods-card__label-red"></label>
+                            <input id="red" type="radio" name="color" value="red" class="goods-card__color-input">
+                            <label for="blue" class="goods-card__label goods-card__label-blue"></label>
+                            <input id="blue" type="radio" name="color" value="blue" class="goods-card__color-input">
+                        </div>
+                        <span class="goods-card__choose goods-card__choose--margin">Количество</span>
+                        <div class="goods-card__counter-group d-flex justify-content-center align-items-center">
+                            <button class="goods-card__counter-button">-</button>
+                            <input type="text" value="1" class="goods-card__counter-input goods-card__counter-input--margin">
+                            <button class="goods-card__counter-button">+</button>
+                        </div>
+                        <button class="button goods-card__button-buy goods-card__button-buy--margin">в корзину</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="goods-card goods-card--margin">
+                        <img src="img/flowers/flower-1.png" alt="Image: Flower" class="goods-card__image">
+                        <h3 class="goods-card__title goods-card__title--margin">Розы</h3>
+                        <span class="goods-card__choose goods-card__choose--margin">Выберите цвет:</span>
+                        <div class="goods-card__colors d-flex align-items-center justify-content-between">
+                            <label for="white" class="goods-card__label goods-card__label-white"></label>
+                            <input id="white" type="radio" name="color" value="white" class="goods-card__color-input">
+                            <label for="biege" class="goods-card__label goods-card__label-biege"></label>
+                            <input id="biege" type="radio" name="color" value="biege" class="goods-card__color-input">
+                            <label for="pink" class="goods-card__label goods-card__label-pink"></label>
+                            <input id="pink" type="radio" name="color" value="pink" class="goods-card__color-input">
+                            <label for="red" class="goods-card__label goods-card__label-red"></label>
+                            <input id="red" type="radio" name="color" value="red" class="goods-card__color-input">
+                            <label for="blue" class="goods-card__label goods-card__label-blue"></label>
+                            <input id="blue" type="radio" name="color" value="blue" class="goods-card__color-input">
+                        </div>
+                        <span class="goods-card__choose goods-card__choose--margin">Количество</span>
+                        <div class="goods-card__counter-group d-flex justify-content-center align-items-center">
+                            <button class="goods-card__counter-button">-</button>
+                            <input type="text" value="1" class="goods-card__counter-input goods-card__counter-input--margin">
+                            <button class="goods-card__counter-button">+</button>
+                        </div>
+                        <button class="button goods-card__button-buy goods-card__button-buy--margin">в корзину</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="goods-card goods-card--margin">
+                        <img src="img/flowers/flower-1.png" alt="Image: Flower" class="goods-card__image">
+                        <h3 class="goods-card__title goods-card__title--margin">Розы</h3>
+                        <span class="goods-card__choose goods-card__choose--margin">Выберите цвет:</span>
+                        <div class="goods-card__colors d-flex align-items-center justify-content-between">
+                            <label for="white" class="goods-card__label goods-card__label-white"></label>
+                            <input id="white" type="radio" name="color" value="white" class="goods-card__color-input">
+                            <label for="biege" class="goods-card__label goods-card__label-biege"></label>
+                            <input id="biege" type="radio" name="color" value="biege" class="goods-card__color-input">
+                            <label for="pink" class="goods-card__label goods-card__label-pink"></label>
+                            <input id="pink" type="radio" name="color" value="pink" class="goods-card__color-input">
+                            <label for="red" class="goods-card__label goods-card__label-red"></label>
+                            <input id="red" type="radio" name="color" value="red" class="goods-card__color-input">
+                            <label for="blue" class="goods-card__label goods-card__label-blue"></label>
+                            <input id="blue" type="radio" name="color" value="blue" class="goods-card__color-input">
+                        </div>
+                        <span class="goods-card__choose goods-card__choose--margin">Количество</span>
+                        <div class="goods-card__counter-group d-flex justify-content-center align-items-center">
+                            <button class="goods-card__counter-button">-</button>
+                            <input type="text" value="1" class="goods-card__counter-input goods-card__counter-input--margin">
+                            <button class="goods-card__counter-button">+</button>
+                        </div>
+                        <button class="button goods-card__button-buy goods-card__button-buy--margin">в корзину</button>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="goods__more goods__more--margin">Все цветы</a>
+        </div>
+    </section>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <!--Подключаем swiper.js-->
     <script src="js/main.js"></script>
 </body>
