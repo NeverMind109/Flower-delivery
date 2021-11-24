@@ -7,6 +7,7 @@
     <title>Flowers - Интернет-магазин цветов</title>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/> <!--Подключаем стили для swiper.js-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" /> <!--Подключаем стили для fancybox-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -73,7 +74,7 @@
                         </div>
                         <div class="review__description">
                             <p class="review__text review__text--margin">Я очень довольна таким отношением к делу. Обслужили просто превосходно, я заказывала по телефону — так подробно мне всё объяснили, помогли выбрать замечательный букет, и привезли всё вовремя, букет был очень красивый, он очень понравился, спасибо вам огромное.</p>
-                            <a href="#" class="review__link">Посмотреть фотографии букета</a>
+                            <a  data-fancybox="gallery" href="img/reviews/bouquet-1.jpg" class="review__link">Посмотреть фотографии букета</a>
                         </div>
                     </div>
                     <div class="swiper-slide review d-flex flex-column flex-md-row align-items-center"> <!-- d-flex и AIC классы из bootstrap -->
@@ -83,7 +84,7 @@
                         </div>
                         <div class="review__description">
                             <p class="review__text review__text--margin">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Подзаголовок толку свой собрал использовало рекламных страна мир дал не выйти. Меня страна себя которой свою решила пор языкового скатился?</p>
-                            <a href="#" class="review__link">Посмотреть фотографии букета</a>
+                            <a  data-fancybox="gallery" href="img/reviews/bouquet-2.jpg" class="review__link">Посмотреть фотографии букета</a>
                         </div>
                     </div>
                     <div class="swiper-slide review d-flex flex-column flex-md-row align-items-center"> <!-- d-flex и AIC классы из bootstrap -->
@@ -93,7 +94,7 @@
                         </div>
                         <div class="review__description">
                             <p class="review__text review__text--margin">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные тексты. Агентство рекламных, великий однажды даже его над. Однажды, себя продолжил строчка она своих пор наш по всей, родного точках деревни запятых? Прямо текстами власти буквенных маленькая послушавшись гор рот дал переписывается.</p>
-                            <a href="#" class="review__link">Посмотреть фотографии букета</a>
+                            <a  data-fancybox="gallery" href="img/reviews/bouquet-3.jpg" class="review__link">Посмотреть фотографии букета</a>
                         </div>
                     </div>
                 </div>            
@@ -398,7 +399,9 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script> <!--Подключаем библиотеку jquery-->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <!--Подключаем swiper.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
